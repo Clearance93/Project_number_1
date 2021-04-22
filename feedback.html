@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/post.css">
+    <!-- <meta name="description" content="Tuts+ Chat Application" /> -->
+    <title>The post site</title>
+
+    
+</head>
+<div class="header">
+    <h2><strong> Post from the customers</strong></h2>
+  </div>
+  
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <!-- <h2>Moving with technology</h2> -->
+        <h5>Mrs K.D Marakalla, April 18, 2021</h5>
+        <div class="fakeimg" style="height:200px;"><img src="Images/FB_IMG_1524664707598.jpg" alt=""></div>
+        <!-- <h2>How mobile technologies are not just portable computers – they change how we see and act in the world (and even shape it)</h2> -->
+        <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iusto nemo maxime ut fuga recusandae ipsum, at accusamus amet,
+           nostrum autem repellendus voluptates consequatur? Corrupti modi dolor laudantium rerum consequuntur.</em>
+        </p>
+       
+      </div>
+      <div class="card">
+        <!-- <h2>Technology over everything</h2> -->
+        <h5>Mr T.F Molekwa, April 18, 2021</h5>
+        <div class="fakeimg" style="height:200px;"><img src="images/Frank1.jpg" alt=""></div>
+        <!-- <p>We are living in a changed world. -->
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero maiores distinctio incidunt nobis reprehenderit possimus esse ab explicabo.
+       Nemo, iure? Praesentium, sequi eaque officiis accusantium minus vel ex iure dolores.
+        </p>
+       
+      </div>
+      <div class="card">
+        <!-- <h2>Life without Technology is a poor life</h2> -->
+        <h5>Mr T.N Molekwa, April 20, 2021</h5>
+        <div class="fakeimg" style="height:200px;"><img src="Images/my guy.jpg" alt=""></div>
+        <!-- <h1>What is life without technology?</h1> -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia expedita dignissimos, quod delectus hic esse officiis cumque quam praesentium?
+           Minima rerum excepturi inventore ea architecto doloribus nobis, atque magni nihil!
+            </p>
+
+           
+      </div>
+      <div class="card">
+        <!-- <h2>There is no bright feature without technology</h2> -->
+        <h5>Mr K.S Morumudi, April 21, 2021</h5>
+        <div class="fakeimg" style="height:200px;"><img src="images/SKAPIE.png" alt=""></div>
+       <!-- <h1>A Year 5 student using a Promethean ActivPanel at Torkington Primary School -->
+        <!-- The tech to create brighter futures</h1> -->
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque maxime voluptatum quod excepturi nulla perferendis dolorum! Unde asperiores architecto 
+          ipsa eum illo sed tempora optio tempore vel, quisquam culpa veniam.
+        </p>
+      
+      </div>
+      <div class="card">
+        <!-- <h2>There is no bright feature without technology</h2> -->
+        <h5>Mr T Mishi, April 21, 2021</h5>
+        <div class="fakeimg" style="height:200px;"><img src="images/THABO.png" alt=""></div>
+       <!-- <h1>A Year 5 student using a Promethean ActivPanel at Torkington Primary School -->
+        <!-- The tech to create brighter futures</h1> -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptas? Ex hic eveniet sapiente, similique quos deserunt voluptatem laudantium 
+          dolorem officia. Nihil tempore illum aliquam quisquam doloribus. Deleniti, saepe id!
+        </p>
+       
+      </div>
+
+      <div class="card">
+        <!-- <h2>There is no bright feature without technology</h2> -->
+        <h5>Mr K Mushi, April 21, 2021</h5>
+        <div class="fakeimg" style="height:200px;"><img src="images/KIDIBONE.png" alt=""></div>
+       <!-- <h1>A Year 5 student using a Promethean ActivPanel at Torkington Primary School -->
+        <!-- The tech to create brighter futures</h1> -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptates itaque, in tenetur quas quaerat odio delectus corporis, illo suscip
+           reprehenderit? Sapiente exercitationem quo minus voluptatum odit necessitatibus id placeat!
+        </p>
+       
+      </div>
+
+      <div class="card">
+        <!-- <h2>There is no bright feature without technology</h2> -->
+        <h5>Mr O Morumudi, April 21, 2021</h5>
+        <div class="fakeimg" style="height:200px;"><img src="images/20200803_174301.jpg" width="100px" alt="" height="120px"></div>
+       <!-- <h1>A Year 5 student using a Promethean ActivPanel at Torkington Primary School -->
+        <!-- The tech to create brighter futures</h1> -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iste velit, quia dolorem esse nam repudiandae officia, blanditiis excepturi,
+          numquam quis. Animi sint accusantium delectus? Fugiat laboriosam quo quas vero!
+        </p>
+      
+
+      <div id="chatbox">
+          
+      
+        <form action="" name="message">
+     </div>
+        <div class="fix">
+            <input type="file" name="filename" id="myFile">
+        </div>
+            <input type="text" name="message" id="userinput">
+            <button onclick="myFunc('userinput')">Send</button>
+         
+            <script>
+                function myFunc(userid)
+                {
+                    var text = document.getElementById(userid).value;
+ 
+                    document.getElementById("chatbox").innerHTML = text;
+                    //document.getElementById("chatbox").innerHTML = text;
+                }
+            </script>
+             <input type="submit">
+           
+        </form>
+    </div>
+    
+</body>
+</html>
+</body>
+</html>

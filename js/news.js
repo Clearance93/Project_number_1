@@ -1,0 +1,1 @@
+alert('Please subscribe to our channel for latest information about technology.')
